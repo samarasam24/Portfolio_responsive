@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script
+      src="https://kit.fontawesome.com/ec912a53a4.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+   <!-- navbar -->
+   <nav id="navcontainer" class="navbar navbar-expand-lg fixed-top">
+      <div class="container p-lg-1">
+       <div class="navbar-brand text-white fw-bold fs-3">
+         <a href="#home" class="nav-link" id="starthead">STRAT BOOTSTRAP</a>
+      </div>
+         <button type="button" id="navbutton" class="navbar-toggler rounded p-2"data-bs-toggle="collapse"data-bs-target="#navcollapse">
+            <div class="d-flex align-items-center">MENU
+             <i class='bx bx-menu' id="menuicon"></i>  
+            </div>        
+         </button>
+         <div id="navcollapse"  class="collapse navbar-collapse ">
+            <ul class=" navbar-nav ms-auto ">
+               <li class="nav-item">
+                  <a href="#portfolio" class="nav-link text-white fw-bold px-lg-3" id="porthover">PORTFOLIO</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#about" class="nav-link text-white fw-bold px-lg-3" id="porthover">ABOUT</a>
+               </li>
+                <li class="nav-item">
+                 <a href="#contact" class="nav-link text-white fw-bold px-lg-3" id="porthover">CONTACT</a>
+               </li>
+             </ul>
+       </div>
+      </div>
+   </nav>
+   <!-- start bootstrap home -->
+   <div id="home" class="text-center text-white mt-5 pt-5 pb-5">
+      <img src="images/avataaars.svg" alt="profile" width="250px" class="pt-5 mt-lg-5">
+      <div class="display-3 fw-bold pt-5 p-1">START BOOTSTRAP</div>
+      <div class="d-flex justify-content-center pt-2">
+         <div class="border-top border-4 border-white mt-3 mx-2" id="border"></div>
+         <i class='bx bxs-star ' id="star"></i>
+         <div class="border-top border-4 border-white mt-3 mx-2" id="border"></div>
+      </div>
+      <div class=" pt-4 fs-5 pb-5 fw-bold">Graphic Artist - Web Designer - Illustrator</div>
+   </div>
+   <!-- portfolio -->
+   <div id="portfolio" class="container mt-5 pt-5">
+         <h1 class="text-uppercase text-center fw-bold display-5 pt-4" id="portcolor">portfolio</h1>
+      <div class="d-flex justify-content-center pt-2" id="portcolor">
+         <div class=" border-top border-4  mt-3 mx-2 portcolor" id="border" ></div>
+         <i class='bx bxs-star ' id="star"></i>
+         <div class="border-top border-4  mt-3 mx-2 portcolor" id="border"></div>
+      </div>
+      <div class="  pt-5">
+         <div class="mx-auto row ">
+            <div class="col-lg-4 col-md-6 pb-5">
+               <div id="cabincontainer">
+               <img src="images/cabin.png" alt=""  class="rounded w-100 h-100" id="cabinimg">
+               <div id="cabincont">
+                 <div id="cabintext"><i class='bx bx-plus mt-lg-4 pt-5 text-white' data-bs-toggle="modal" data-bs-target="#modalcabinimage"></i></div> 
+               </div>
+               </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 pb-5">
+               <div id="cabincontainer">
+               <img src="images/cake.png" alt=""  class="rounded w-100 h-100">
+               <div id="cabincont">
+                  <div id="cabintext"><i class='bx bx-plus mt-lg-4 pt-5 text-white' data-bs-toggle="modal" data-bs-target="#modalcakeimage"></i></div> 
+                </div>
+               </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 pb-5">
+               <div id="cabincontainer">
+               <img src="images/circus.png" alt=""  class="rounded w-100 h-100">
+               <div id="cabincont">
+                  <div id="cabintext"><i class='bx bx-plus mt-lg-4 pt-5 text-white' data-bs-toggle="modal" data-bs-target="#modalcircusimage"></i></div> 
+                </div>
+               </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 pb-5">
+               <div id="cabincontainer">
+               <img src="images/game.png" alt=""  class="rounded w-100 h-100">
+               <div id="cabincont">
+                  <div id="cabintext"><i class='bx bx-plus mt-lg-4 pt-5 text-white' data-bs-toggle="modal" data-bs-target="#modalgameimage"></i></div> 
+                </div>
+               </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 pb-5">
+               <div id="cabincontainer">
+               <img src="images/safe.png" alt=""  class="rounded w-100 h-100">
+               <div id="cabincont">
+                  <div id="cabintext"><i class='bx bx-plus mt-lg-4  pt-5 text-white' data-bs-toggle="modal" data-bs-target="#modalsafeimage"></i></div> 
+                </div>
+               </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 pb-5">
+               <div id="cabincontainer">
+               <img src="images/submarine.png" alt=""  class="rounded w-100 h-100">
+               <div id="cabincont">
+                  <div id="cabintext"><i class='bx bx-plus mt-lg-4 pt-5 text-white' data-bs-toggle="modal" data-bs-target="#modalsubmarineimage"></i></div> 
+                </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- cabin modal -->
+   <div id="modalcabinimage" class="modal fade ">
+      <div class="modal-dialog modal-xl">
+         <div class="modal-content">
+            <div class="modal-header border-0 p-4">
+               <button class="btn btn-close fs-2" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="text-center display-5 fw-bolder" id="portcolor">LOG CABIN</div>
+            <div class="d-flex justify-content-center pt-2" id="portcolor">
+               <div class=" border-top border-4  mt-3 mx-2 portcolor" id="border" ></div>
+               <i class='bx bxs-star ' id="star"></i>
+               <div class="border-top border-4  mt-3 mx-2 portcolor" id="border"></div>
+            </div>
+            <div class="modal-body p-4">
+               <div class="container row justify-content-center p-1">
+                  <div class="col-lg-8">
+                     <img src="images/cabin.png" alt="" class=" w-100 h-100 rounded">
+                  </div>
+                  <div class="col-lg-8 ">
+                  <p class="text-center pt-5">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                  </p>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-center mb-5">
+                  <button class="btn text-white" id="modalclose" data-bs-dismiss="modal">X Close Window</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- cake modal -->
+   <div id="modalcakeimage" class="modal fade ">
+      <div class="modal-dialog modal-xl">
+         <div class="modal-content">
+            <div class="modal-header border-0 p-4">
+               <button class="btn btn-close fs-2" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="text-center display-5 fw-bolder" id="portcolor">LOG CABIN</div>
+            <div class="d-flex justify-content-center pt-2" id="portcolor">
+               <div class=" border-top border-4  mt-3 mx-2 portcolor" id="border" ></div>
+               <i class='bx bxs-star ' id="star"></i>
+               <div class="border-top border-4  mt-3 mx-2 portcolor" id="border"></div>
+            </div>
+            <div class="modal-body p-4">
+               <div class="container row justify-content-center p-1">
+                  <div class="col-lg-8">
+                     <img src="images/cake.png" alt="" class=" w-100 h-100 rounded">
+                  </div>
+                  <div class="col-lg-8 ">
+                  <p class="text-center pt-5">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                  </p>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-center mb-5">
+                  <button class="btn text-white" id="modalclose" data-bs-dismiss="modal">X Close Window</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- circus modal -->
+   <div id="modalcircusimage" class="modal fade ">
+      <div class="modal-dialog modal-xl">
+         <div class="modal-content">
+            <div class="modal-header border-0 p-4">
+               <button class="btn btn-close fs-2" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="text-center display-5 fw-bolder" id="portcolor">LOG CABIN</div>
+            <div class="d-flex justify-content-center pt-2" id="portcolor">
+               <div class=" border-top border-4  mt-3 mx-2 portcolor" id="border" ></div>
+               <i class='bx bxs-star ' id="star"></i>
+               <div class="border-top border-4  mt-3 mx-2 portcolor" id="border"></div>
+            </div>
+            <div class="modal-body p-4">
+               <div class="container row justify-content-center p-1">
+                  <div class="col-lg-8">
+                     <img src="images/circus.png" alt="" class=" w-100 h-100 rounded">
+                  </div>
+                  <div class="col-lg-8 ">
+                  <p class="text-center pt-5">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                  </p>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-center mb-5">
+                  <button class="btn text-white" id="modalclose" data-bs-dismiss="modal">X Close Window</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- game modal -->
+   <div id="modalgameimage" class="modal fade ">
+      <div class="modal-dialog modal-xl">
+         <div class="modal-content">
+            <div class="modal-header border-0 p-4">
+               <button class="btn btn-close fs-2" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="text-center display-5 fw-bolder" id="portcolor">LOG CABIN</div>
+            <div class="d-flex justify-content-center pt-2" id="portcolor">
+               <div class=" border-top border-4  mt-3 mx-2 portcolor" id="border" ></div>
+               <i class='bx bxs-star ' id="star"></i>
+               <div class="border-top border-4  mt-3 mx-2 portcolor" id="border"></div>
+            </div>
+            <div class="modal-body p-4">
+               <div class="container row justify-content-center p-1">
+                  <div class="col-lg-8">
+                     <img src="images/game.png" alt="" class=" w-100 h-100 rounded">
+                  </div>
+                  <div class="col-lg-8 ">
+                  <p class="text-center pt-5">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                  </p>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-center mb-5">
+                  <button class="btn text-white" id="modalclose" data-bs-dismiss="modal">X Close Window</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- safe modal -->
+   <div id="modalsafeimage" class="modal fade ">
+      <div class="modal-dialog modal-xl">
+         <div class="modal-content">
+            <div class="modal-header border-0 p-4">
+               <button class="btn btn-close fs-2" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="text-center display-5 fw-bolder" id="portcolor">LOG CABIN</div>
+            <div class="d-flex justify-content-center pt-2" id="portcolor">
+               <div class=" border-top border-4  mt-3 mx-2 portcolor" id="border" ></div>
+               <i class='bx bxs-star ' id="star"></i>
+               <div class="border-top border-4  mt-3 mx-2 portcolor" id="border"></div>
+            </div>
+            <div class="modal-body p-4">
+               <div class="container row justify-content-center p-1">
+                  <div class="col-lg-8">
+                     <img src="images/safe.png" alt="" class=" w-100 h-100 rounded">
+                  </div>
+                  <div class="col-lg-8 ">
+                  <p class="text-center pt-5">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                  </p>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-center mb-5">
+                  <button class="btn text-white" id="modalclose" data-bs-dismiss="modal">X Close Window</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- submarine modal -->
+   <div id="modalsubmarineimage" class="modal fade ">
+      <div class="modal-dialog modal-xl">
+         <div class="modal-content">
+            <div class="modal-header border-0 p-4">
+               <button class="btn btn-close fs-2" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="text-center display-5 fw-bolder" id="portcolor">LOG CABIN</div>
+            <div class="d-flex justify-content-center pt-2" id="portcolor">
+               <div class=" border-top border-4  mt-3 mx-2 portcolor" id="border" ></div>
+               <i class='bx bxs-star ' id="star"></i>
+               <div class="border-top border-4  mt-3 mx-2 portcolor" id="border"></div>
+            </div>
+            <div class="modal-body p-4">
+               <div class="container row justify-content-center p-1">
+                  <div class="col-lg-8">
+                     <img src="images/submarine.png" alt="" class=" w-100 h-100 rounded">
+                  </div>
+                  <div class="col-lg-8 ">
+                  <p class="text-center pt-5">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                  </p>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-center mb-5">
+                  <button class="btn text-white" id="modalclose" data-bs-dismiss="modal">X Close Window</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- about -->
+   <div class="text-white text-center container-fluid p-lg-2 pt-5 p-lg-5 pb-5" id="about">
+      <div class=" row justify-content-center p-lg-3 ">
+         <h1 class="fw-bold pt-2">ABOUT</h1>
+         <div class="d-flex justify-content-center pt-2 mb-4">
+            <div class="border-top border-4 border-white mt-3 mx-2" id="border"></div>
+            <i class='bx bxs-star ' id="star"></i>
+            <div class="border-top border-4 border-white mt-3 mx-2" id="border"></div>
+         </div>
+         <p class="lead col-lg-4 text-start px-lg-2  p-lg-2">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+         <p class="lead col-lg-4 text-start px-lg-2  p-lg-2">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+      </div>
+      <button type="button" class="hover btn border-2 border-white text-white fs-5 p-3 px-4 rounded"><i class="fa-solid fa-download"></i> Free Download!</button>
+   </div>
+   <!-- contact -->
+   <div id="contact" class="mt-5 pt-5">
+      <div class="container">
+         <h1 class="text-uppercase text-center fw-bold display-5 pt-4" id="portcolor">contact me</h1>
+         <div class="d-flex justify-content-center pt-2" id="portcolor">
+            <div class=" border-top border-4  mt-3 mx-2 portcolor" id="border" ></div>
+            <i class='bx bxs-star ' id="star"></i>
+            <div class="border-top border-4  mt-3 mx-2 portcolor" id="border"></div>
+         </div>
+         <div id="aboutcont">
+         <form  action="" class=" mb-5">
+          <div class="row justify-content-center container-fluid mt-5">
+            <div class="col-lg-7 form-floating container mb-5 ">
+               <input type="text" name="" id="inputeffect" placeholder="full name" class="form-control border-0 border-bottom rounded-0">
+               <label for="name" id="mmmmm">Full name</label>
+            </div>
+            <div class="col-lg-7 form-floating container mb-5">
+               <input type="text" name="" id="inputeffect" placeholder="full name" class="form-control border-0 border-bottom rounded-0">
+               <label for="name" id="mmmmm">Email address</label>
+            </div>
+            <div class="col-lg-7 form-floating container mb-5">
+               <input type="number " name="" id="inputeffect" placeholder="full name" class="form-control border-0 border-bottom rounded-0">
+               <label for="name" id="mmmmm">Phone number</label>
+            </div>
+            <div class="col-lg-7 form-floating container mb-5">
+              <textarea name="" id="textarea" placeholder="full name" class="form-control border-0 border-bottom rounded-0 " style="height: 150px;"></textarea>
+               <label for="name" id="mmmmm"> Message</label>
+            </div>
+          </div>
+          <div class="container col-lg-7">
+            <button type="submit" class="btn text-white p-3 px-4 disabled fs-5"  id="formbtn">Send</button>
+         </div>
+         </form>
+      </div>
+      </div>
+   </div>
+   <!-- footer -->
+   <div id="footer" class="p-lg-5 p-0 pb-5">
+      <div class="container row p-lg-3  pt-5  mx-auto">
+         <div class="col-lg-4 text-center">
+            <h4 class="fw-bold">LOCATION</h4>
+            <h5 class="px-lg-5 pt-3">2215 John Daniel Drive
+               Clark, MO 65243</h5>
+         </div>
+         <div class="col-lg-4  text-center pt-5 pt-lg-0">
+            <h4 class="fw-bold">AROUND THE WEB</h4>
+            <div class="pt-3">
+               <i class='bx bxl-facebook border border-2 border-white rounded-circle p-2 fs-3 mx-1' id="footerhover"></i>
+               <i class='bx bxl-twitter border border-2 border-white rounded-circle p-2 fs-3 mx-1' id="footerhover"></i>
+               <i class='bx bxl-linkedin border border-2 border-white rounded-circle p-2 fs-3 mx-1' id="footerhover"></i>
+               <i class='bx bx-basketball border border-2 border-white rounded-circle p-2 fs-3 mx-1' id="footerhover"></i>
+            </div>
+         </div>
+         <div class="col-lg-4 text-center pt-5 pt-lg-0">
+            <h4 class="fw-bold">ABOUT FREELANCER</h4>
+            <h5 class="pt-3">Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="" id="footerlink">Start Bootstrap</a> .</h5>
+         </div>
+      </div>
+   </div>
+   <div class=" text-white p-2 text-center" style="background-color: #1A252F;" id="footerend">
+      <p class="pt-3 small" >Copyright © Your Website 2023</p>
+   </div>
+</body>
+</html>
